@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/TUTEL-50/Desktop/HW/key_scheduler/test3_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="test3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/test3/masterkey" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">masterkey[79:0]</obj_property>
+      <obj_property name="ObjectShortName">masterkey[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[79:0]</obj_property>
+      <obj_property name="ObjectShortName">output[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/uut/master_key" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">master_key[63:0]</obj_property>
+      <obj_property name="ObjectShortName">master_key[63:0]</obj_property>
+   </wvobject>
+</wave_config>

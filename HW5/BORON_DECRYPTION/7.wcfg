@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/TUTEL-50/Desktop/boron yeni/boron_decrypto/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/test/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/ciphertext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ciphertext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ciphertext[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/masterkey" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">masterkey[79:0]</obj_property>
+      <obj_property name="ObjectShortName">masterkey[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/plaintext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">plaintext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">plaintext[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/plain_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">plain_port[63:0]</obj_property>
+      <obj_property name="ObjectShortName">plain_port[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/cipher_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cipher_port[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cipher_port[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/master_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">master_port[79:0]</obj_property>
+      <obj_property name="ObjectShortName">master_port[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/master_port2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">master_port2[79:0]</obj_property>
+      <obj_property name="ObjectShortName">master_port2[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/master_port3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">master_port3[79:0]</obj_property>
+      <obj_property name="ObjectShortName">master_port3[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/master_port4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">master_port4[79:0]</obj_property>
+      <obj_property name="ObjectShortName">master_port4[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
